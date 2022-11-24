@@ -1,4 +1,7 @@
 #!/usr/bin/env php
 <?php
+require_once('/home/razum/php-project-45/src/Cli.php');
 
-echo "Welcome to the Brain Games!";
+use function BrainGames\Cli\hello;
+
+hello();
